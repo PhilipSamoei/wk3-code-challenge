@@ -216,3 +216,6 @@ img{
 .price{
     color: #00FFE4;
 }
+.movies-cointainer {
+    display: flex ;
+}
