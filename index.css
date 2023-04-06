@@ -1,4 +1,5 @@
 * {
+    background-color: #5c4747;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +8,7 @@
 
 body{
     background-color: #252525 ;
-    display: grid;
+    float: left;
     grid-template-columns: 1000px;
     justify-content: space-evenly;
 }
@@ -59,7 +60,7 @@ a {
     position: relative;
     height: 30px;
     width: 30px;
-    border-radius: 50%;
+    border-radius: 70%;
     overflow: hidden;
 }
 
@@ -72,11 +73,7 @@ img{
     object-fit: cover;
 }
 
-.filter, .cart, .help, .menu{
-    position: relative;
-    height: 20px;
-    width: 20px;
-}
+
 
 .main-container{
     color: #CCCCCC;
@@ -131,7 +128,7 @@ img{
 }
 
  .current-movies .btn-outline-primary img{
-    height: 200px;
+    height: 00px;
     width: 200px;
  }
 
@@ -219,3 +216,59 @@ img{
 .movies-cointainer {
     display: flex ;
 }
+
+
+
+
+.heading {
+    background-color: #9f4f4f;
+    margin-bottom: 20px;
+    padding: 5px 0px 5px 15px;
+  }
+  
+  .title {
+    background-color: #333333;
+    padding: 5px;
+    color: white;
+  }
+  
+  #runtime {
+    background-color: #333333;
+    color: #3e8fde;
+    padding: 0px 0px 5px 5px;
+  }
+  
+  .content {
+    color: #3e8fde;
+  }
+  
+  #subtitle {
+    color: white;
+    margin-left: 55px;
+  }
+  
+  #showing {
+    margin-left: 20px;
+  }
+  
+  #films li::before {
+    content: "";
+  }
+  
+  .film {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .sold-out {
+    color: lightgray;
+  }
+  
+  img {
+    max-width: 25vw;
+  }
+  
+  #film-info {
+    padding-bottom: 15px;
+  }
+  
