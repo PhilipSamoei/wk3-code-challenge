@@ -264,11 +264,13 @@ img{
     color: lightgray;
   }
   
-  img {
-    max-width: 25vw;
-  }
+  
   
   #film-info {
     padding-bottom: 15px;
   }
-  
+ .moon {
+    
+    width: 100%;
+    height: min-content;
+ }
